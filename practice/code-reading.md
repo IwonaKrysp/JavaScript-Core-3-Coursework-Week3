@@ -16,6 +16,8 @@ Take a look at the following code:
 
 Explain why line 4 and line 6 output different numbers.
 
+variable x in line 4, only exist inside function block, whereas variable in line 1 is global variable.
+
 ## Question 2
 
 Take a look at the following code:
@@ -34,6 +36,8 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+variable x is global variable and is accessible everywhere, whereas y is visible only within function block.
 
 ## Question 3
 
@@ -62,3 +66,5 @@ console.log(y);
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+x and y are global variable so they are available everywhere.

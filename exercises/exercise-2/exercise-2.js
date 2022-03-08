@@ -70,3 +70,20 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+
+
+function belongToGryffindor({firstName,lastName,house}) {
+  
+  
+  
+}
+belongToGryffindor(hogwarts);
+
+
+
+function teachersWithPets({ firstName, lastName, house }) {
+
+
+
+}
+teachersWithPets(hogwarts);
